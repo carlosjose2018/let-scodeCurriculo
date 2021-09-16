@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+body,h1,h2,a{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+}
+p{
+    color:#40514E;
+}
+.container{
+    height:100vh;
+    background-color:#EAF6F6;
+}
+.img-cloud{
+    position: relative;
+    left: 300px;
+    padding-top:84px; 
+}
+.container h1{
+    font-family:'Sacramento', cursive;
+    font-size:4rem;
+    color: #66BFBF;
+    padding-top: 20px;
+}
+
+.container h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+    padding-top:20px
+}
+	
+h2::before { 
+    content: "";
+    width:40px;
+    height:2px;
+    background-color: #66BFBF;
+    font-weight: bold;
+    position:absolute;
+    top:294px;
+    left:44.2vw;
+}
+
+.container .img-cloudMount{
+    position:absolute;
+    left:20vw;
+    padding-top:30px;
+}
+
+.middle-container{
+    font-family: "Montserrat",sans-serif;
+    padding-top:70px;
+}
+.img-photo{
+    width:200px;
+}
+.middle-container h2{
+    color:#66BFBF;
+    font-size:2rem;
+    margin-top:30px;
+}
+.middle-container p{
+    color:#40514E;
+    font-size: 1rem;
+    margin-top:30px;
+}
+   hr{
+    border: 5px dotted #EAF6F6;
+    border-style: none none dotted;
+    width:50px;
+    margin-top:80px;
+}
+.skills {
+    font-family: "Montserrat",sans-serif;
+    padding-top:40px;
+    text-align: center;
+}
+.skill-row{
+    margin-top:80px;
+}
+.skill-row img{
+    width:100px;
+}
+.skill-row .ico {
+    float:left;
+    position: relative;
+    left:25vw;
+    top: 10px;
+}
+.skill-row .ico-chili{
+    float:right;
+    position: relative;
+    right:28vw;
+}
+.contact-me {
+    margin-top: 80px;
+}
+.contact-me h3{
+    color:#66BFBF;
+    margin-top:40px;
+}
+
+.contact-me .btn{
+    background-color: #66BFBF;
+    padding:5px;
+    border-radius:5px;
+    text-decoration:none;
+    color: #ffff;
+    font-size:1rem;
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+}
+
+.bottom-container{
+    margin-top:80px;
+    height:14vh;
+    background-color: #66BFBF;
+}
+.bottom-container .footer-link{
+    color: #11999E;
+    font-size: 1rem;
+    font-family: "Montserrat"sans-serif;
+    margin: 40px 20px 40px 0;
+    position: relative;
+    top: 30px;
+}
+.bottom-container p{
+    margin-top:50px;
+    color: #EAF6F6;
+}
